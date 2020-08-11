@@ -1,0 +1,473 @@
+/* style_0.css */
+
+@charset "UTF-8";
+/* ============================================= */
+/* Author: LUIGI PISANO */
+/* Due date: August 12, 2020 (9 am) */
+/* ============================================= */
+
+/*		NOTE to self: CODE the BIG BOXES first, then worry the next interior boxes.
+				Layer the website, LAYER by LAYER, boxes within boxes.
+					THINK SCOPE CREEP. */
+
+/*		NOTE to reviewer: This project is a mock photo company. As such, I have
+				placed many fun things such as memes, funny pictures, dad jokes,
+				easter eggs and other off-color (all SFW) humor in the user side
+				of the site as well as in the code itself. Obviously, this has
+				no place in a professional enviorment, but, for a school project,
+				I thought that it would be safe enough. */
+
+/* ============================================= */
+/*	Fonts */
+/* ============================================= */
+		
+* {font-family: 'Berkshire Swash', cursive;}
+a, footer, p, span {font-family: 'Open Sans', sans-serif;}
+h1, header {font-family: 'Playfair Display', serif;}
+
+/* ============================================= */
+/*  GLOBAL STYLES */
+/* ============================================= */
+ a {
+ 	font-size: 1em;
+ 	padding: 0 1em;
+ 	text-decoration: none;
+	text-shadow: 3px 3px 5px black;
+	color: floralwhite;
+	}
+
+body {
+	background-position: center;
+	background-size: 100%;
+	background-color: mediumblue;
+	background-image: url("../media/rain_lily.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	position: center;
+	color: floralwhite;
+	text-shadow: 3px 3px 5px black;
+}
+
+div.blank {
+	height: 20em;
+}
+div#divService {
+	position: center;
+	max-height: 30em;
+	color: gold;
+	background-color: rgb(25, 25, 25);
+	background-color: rgba(25, 25, 25, 0.3);
+	max-width: 99%;
+	font-size: 1.1em;
+	text-align: center;
+	display: block;
+	text-shadow: rgba(25, 25, 25, 0.3);
+}
+
+footer {
+	font-size: 1em;
+	width: 97%;
+	background-color: rgb( 0, 99, 0);
+	background-color: rgba( 0, 221, 0, .4);
+	position: fixed;
+	bottom: 5px;
+	border-style: double;
+	border-color: fuchsia;
+	border-width: .2em;
+	text-shadow: 3px 3px 5px black;
+	box-shadow: 3px 3px 5px black;
+	z-index: 99;
+	cursor: default;
+	}
+
+h1 {
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;
+	font-size: 2.25em;
+	display: block;
+}
+
+header {
+	width: 100%
+	margin: 1em;
+	display: block;
+	text-shadow: 3px 3px 5px black;
+	font-size: 3em;
+	position: fixed;
+	right: .5em;
+}
+
+nav {
+	display: inline-flex;
+	width: 	99%;
+	height: 2em;
+	align-self: center;
+	-webkit- align-items: center;
+	align-items: center;
+	position: fixed;
+	background-color: rgb( 0, 99, 0);
+	border-style: double;
+	border-color: fuchsia;
+	border-width: 5px;
+	box-shadow: 3px 3px 5px black;
+	z-index: 99;
+}
+
+span {
+	height: auto;
+	bottom: 2em;
+	padding-top: .3em;
+	font-size: 1.5em;
+	text-shadow: 3px 3px 5px black;
+	position: fixed;
+	z-index: 2;
+}
+
+
+/* ============================================= */
+/* Children */
+/* ============================================= */
+
+body > img {
+	width: 100%;
+	z-index: 999;
+	display: block;
+	border: .3em double fuchsia;
+}
+
+div#aboutUs p {
+	background-color: rgb(25, 25, 25);
+	background-color: rgba(25, 25, 25, 0.7);
+	justify-content: center;
+	display: flex;
+	margin: 1em 1em 5em 1em;
+	padding: 3em auto;
+	overflow: auto;
+	font-size: 1.2em;
+	border: 3px double gold;
+}
+
+div#divService ul {
+	display: block;
+	width: 100%;
+	position: center;
+}
+
+div#gallery img:nth-of-type(even) {
+	border: 2px solid fuchsia;
+}
+
+div#gallery img:nth-of-type(odd) {
+	border: 2px solid indigo;
+}
+
+div section {
+	margin: 1em 0;
+	display: flex;
+	width: 100%;
+	background-color: rgb(110, 33, 233);
+	background-color: rgba(110, 33, 233, 0.4);
+	border-radius: 5px;
+	border-style: double;
+	border-color: fuchsia;
+	box-shadow: 0.2em 0.2em 0.1em rgb( 0, 99, 0);
+	box-shadow: 0.2em 0.2em 0.1em rgba( 0, 99, 0, 0.7);
+}
+
+div > ul {
+	bottom: 0;
+	display: block;
+	width: 60%;
+}
+
+footer text {
+	display: inline-flex;
+	width: 23%;
+	text-decoration: none;
+	color: floralwhite;
+}
+
+header > img {
+	max-width: 1em;
+	position: relative;
+	top: .2em;
+}
+
+li a.navBar {
+	cursor: pointer;
+	display: flex;
+}
+
+nav > ul {
+	display: inline-flex;
+}
+
+section#eight * {
+	margin: auto;
+	padding: auto;
+}
+
+section > p, address {
+	background-color: rgb(25, 25, 25);
+	background-color: rgba(25, 25, 25, 0.3);
+	justify-content: center;
+	display: flex;
+	margin: 1em;
+	padding: 3em auto;
+	font-size: 1.5em;
+}
+
+/* ============================================= */
+/* Grandchildren and beyond */
+/* ============================================= */
+
+div > * > img {
+	object-fit: scale-down;
+	max-width: 	20%;
+	padding: 1%;
+	box-shadow: 0.2em 0.2em 0.1em rgb( 0, 99, 0);
+	box-shadow: 0.2em 0.2em 0.1em rgba( 0, 99, 0, 0.7);
+}
+
+
+div:nth-of-type(even) > * > img {
+	box-shadow: -0.2em -0.2em 0.1em rgb( 0, 99, 0);
+	box-shadow: -0.2em -0.2em 0.1em rgba( 0, 99, 0, 0.7);
+}
+
+/* ============================================= */
+/* Specific effects and elements with IDs */
+/* ============================================= */
+
+/* operational telephone number and email in footer */
+
+a.amazing_website_luigi {
+	font-size: 1em;
+	text-decoration: none;
+	color: floralwhite;
+	padding: 0;
+}
+/* jump link to top*/
+
+body > button#upArrow {
+	position: fixed;
+	right: 3em;
+	bottom: 5em;
+	width: 3em;
+	height: 3em;
+	border-radius: 50%;
+	z-index: 9999;
+	background-color: fuchsia;
+	cursor: pointer;
+	box-shadow: 4px 4px 10px rgb(0, 0, 0);
+	box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.7);
+	color: floralwhite;
+	outline: none;
+	border-color: forestgreen;
+}
+
+div#gallery {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+header::first-letter {
+	font-size: 2em;
+}
+
+li#blackHeart:before {content: "\1F5A4";}
+li#redHeart:before {content: "❤️";} 
+li#orangeHeart:before {content: "\1F9E1";} 
+li#yellowHeart:before {content: "\1F49B";} 
+li#greenHeart:before {content: "\1F49A";} 
+li#blueHeart:before {content: "\1F499";} 
+li#purpleHeart:before {content: "\1F49C";} 
+li#whiteHeart:before {content: "\1F90D";} 
+li#revolvingHeart:before {content: "\1F49E";}
+
+section#eight {
+	display: block;
+
+}
+/* ========================================*/
+/* Transitions and Hovers  */
+/* ========================================*/
+
+
+a:hover, a.amazing_website_luigi:hover, footer > text:hover {
+		color: fuchsia;
+}
+
+body > img:hover {
+	opacity: 0.5;
+	-webkit- transition: 10s;
+	-o- transition: 10s;
+	transition: 10s;
+	-webkit- transition-delay: 1s;
+	-o- transition-delay: 1s;
+	transition-delay: 1s;
+	display: block;
+}
+
+
+body > img:hover:nth-of-type(odd) {
+	opacity: 0;
+	-webkit- transition: 20s;
+	-o- transition: 20s;
+	transition: 20s;
+	-webkit- transition-delay: 1s;
+	-o- transition-delay: 1s;
+	transition-delay: 1s;
+	display: block;
+}
+
+div#divService:hover p, div#divService {
+	transition: 1.5s;
+	-webkit- transition: 1.5s;
+	-o- transition: 1.5s;
+	font-size: 1.4em;
+	border: 3px double gold;
+}
+
+div#divService li:hover {
+	color: floralwhite;
+	transition: 1.5s;
+	font-size: 1.6em;
+	letter-spacing: 0.25em;
+	text-decoration-line: underline;
+	text-decoration-style: wavy;
+	text-decoration-color: rgb(255, 215, 0)
+	text-decoration-color: rgba(255, 215, 0, 0.3)
+	text-shadow: 5px 5px 15px gold;
+}
+
+div#gallery img:hover {
+	border: 3px double gold;
+	padding: 0;
+	transform: scale(2);
+	-webkit- flex-wrap: nowrap;
+	-moz- flex-wrap: nowrap;
+	flex-wrap: nowrap;
+}
+
+header:hover > img {
+	opacity: 0.4;
+}
+
+h1:hover {
+	color: rgb( 21, 99, 220);
+	color: rgba( 21, 99, 220, .4);
+	text-shadow: .05em .05em gold;
+}
+
+header:hover {
+	color: rgb( 21, 99, 220);
+	color: rgba( 21, 99, 220, .4);
+	text-shadow: .05em .05em gold;
+}
+
+/* ========================================*/
+/* Responsiveness to large viewport size */
+/* ========================================*/
+@media screen and (min-width: 1101px) {
+
+}
+
+/* ========================================*/
+/* Responsiveness to medium viewport sizes */
+/* ========================================*/
+
+@media screen and (max-width: 1100px) {
+
+section > p {
+	font-size: 1.1em;
+	max-width: 	60%;
+	}
+
+section > img {
+	max-width: 	40%;
+		}
+}
+
+/* ========================================*/
+/* Responsiveness to mobile viewport size  */
+/* ========================================*/
+
+@media screen and (max-width: 420px) {
+
+	body > button#upArrow {
+		position: fixed;
+		right: 2em;
+		bottom: 9em;
+		}
+
+	div section {
+		display: inline-block;
+	}
+
+	div#divService {
+		font-size: 1.25em;
+		border: none;
+	}
+
+div#divService:hover p, div#divService {
+		-webkit- transition: all 0s ease 0s;
+		-o- transition: all 0s ease 0s;
+		transition: all 0s ease 0s;
+	}
+
+	div#gallery img:hover {
+		transform: scale(5);
+		align-self: center;
+	}
+
+	header {
+		font-size: 1.5em;
+		top: 	2em;
+		right:		1em;
+	}
+
+	header::first-letter {
+		font-size: 1.2em;
+	}
+
+	nav {
+		align-content: flex-start;
+	}
+	nav a {
+		top: 0;
+	}
+
+	nav i {
+		max-height: 12px;
+		max-width: 12px;
+		align-self: flex-start;
+	}
+
+	section > p {
+	-webkit- flex-direction: column;
+	-moz- flex-direction: column;
+	flex-direction: column;
+	font-size: 1.1em;
+	max-width: 100%;
+	}
+
+	section > img {
+	-webkit- flex-direction: column;
+	-moz- flex-direction: column;
+	flex-direction: column;
+	max-width: 100%;
+	}
+
+	span {
+		font-size: 1.2em;
+		left: 1em;
+		top: 4em;
+		bottom: auto;
+	}
+
+	ul {
+		padding: 0;
+	}
+}

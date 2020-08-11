@@ -1,0 +1,104 @@
+/* style_0.css */
+
+@charset "UTF-8";
+/* ============================================= */
+/* Author: LUIGI PISANO */
+/* Due date: August 12, 2020 (9 am) */
+/* ============================================= */
+
+
+/* ================================== */
+/* = From DARKRED to SALMON = */
+/* ================================== */
+body {
+	background-color: salmon;
+}
+/* ================================== */
+/* = From SPRINGGREEN to THISTLE = */
+/* ================================== */
+
+div#divService {
+	color: thistle;
+}
+
+header:hover {
+	text-shadow: .05em .05em thistle;
+}
+
+div#aboutUs p {
+	border: 3px double thistle;
+}
+
+div#divService {
+	color: thistle;
+}
+
+div#divService:hover p, div#divService {
+	border: 3px double thistle;
+}
+
+div#divService li:hover {
+	text-shadow: 5px 5px 15px thistle;
+}
+
+div#gallery img:hover {
+	border: 3px double thistle;
+}
+
+h1:hover {
+	text-shadow: .05em .05em thistle;
+}
+
+header:hover {
+	text-shadow: .05em .05em thistle;
+}
+
+footer {
+	background-color: thistle;
+	background-color: rgba(216, 191, 216) .4);
+}
+
+nav {
+	background-color: thistle;
+	background-color: rgba(216, 191, 216) .4);
+}
+
+/* ================================= */
+/* = From INDIGO to MEDIUMTURQUOISE= */
+/* ================================= */
+
+footer {
+	border-color: mediumturquoise;
+	}
+
+nav {
+	border-color: mediumturquoise;
+}
+
+body > img {
+	border: .3em double mediumturquoise;
+}
+
+div#gallery img:nth-of-type(even) {
+	border: 2px solid mediumturquoise;
+}
+
+div section {
+	border-color: mediumturquoise;
+}
+
+body > button#upArrow {
+	background-color: mediumturquoise;
+}
+
+a:hover, a.amazing_website_luigi:hover, footer > text:hover {
+	color: mediumturquoise;
+}
+
+/* ================================= */
+/* =From VIOLET to PALEVIOLETRED= */
+/* ================================= */
+
+div#gallery img:nth-of-type(odd) {
+	border: 2px solid palevioletred;
+}

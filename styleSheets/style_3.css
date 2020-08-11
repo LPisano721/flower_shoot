@@ -1,0 +1,104 @@
+/* style_0.css */
+
+@charset "UTF-8";
+/* ============================================= */
+/* Author: LUIGI PISANO */
+/* Due date: August 12, 2020 (9 am) */
+/* ============================================= */
+
+
+/* ================================== */
+/* = From SALMON to PURPLE */
+/* ================================== */
+body {
+	background-color: purple;
+}
+/* ================================== */
+/* = From THISTLE to DARKSLATEGREY = */
+/* ================================== */
+
+div#divService {
+	color: darkslategrey;
+}
+
+header:hover {
+	text-shadow: .05em .05em darkslategrey;
+}
+
+div#aboutUs p {
+	border: 3px double darkslategrey;
+}
+
+div#divService:hover p, div#divService {
+	border: 3px double darkslategrey;
+}
+
+div#divService li:hover {
+	text-shadow: 5px 5px 15px darkslategrey;
+}
+
+div#gallery img:hover {
+	border: 3px double darkslategrey;
+}
+
+h1:hover {
+	text-shadow: .05em .05em darkslategrey;
+}
+
+header:hover {
+	text-shadow: .05em .05em darkslategrey;
+}
+
+footer {
+	background-color: darkslategrey;
+	background-color: rgba(47, 79, 79) .4);
+}
+
+nav {
+	background-color: darkslategrey;
+	background-color: rgba(47, 79, 79) .4);
+}
+
+/* =================================== */
+/* = From MEDIUMTURQUOISE to MOCCASIN= */
+/* =================================== */
+
+div#divService {
+	color: moccasin;
+	}
+
+footer {
+	border-color: moccasin;
+	}
+
+nav {
+	border-color: moccasin;
+}
+
+body > img {
+	border: .3em double moccasin;
+}
+
+div#gallery img:nth-of-type(even) {
+	border: 2px solid moccasin;
+}
+
+div section {
+	border-color: moccasin;
+}
+
+body > button#upArrow {
+	background-color: moccasin;
+}
+
+a:hover, a.amazing_website_luigi:hover, footer > text:hover {
+	color: moccasin;
+}
+
+/* ================================= */
+/* =From PALEVIOLETRED to LIGHTCORAL= */
+/* ================================= */
+
+div#gallery img:nth-of-type(odd) {
+	border: 2px solid lightcoral;
+}

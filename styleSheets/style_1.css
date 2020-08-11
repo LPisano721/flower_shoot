@@ -1,0 +1,104 @@
+/* style_0.css */
+
+@charset "UTF-8";
+/* ============================================= */
+/* Author: LUIGI PISANO */
+/* Due date: August 12, 2020 (9 am) */
+/* ============================================= */
+
+
+/* ================================== */
+/* = From MEDIUMBLUE to DARKRED = */
+/* ================================== */
+body {
+	background-color: darkred;
+}
+/* ================================== */
+/* = From GOLD to SPRINGGREEN = */
+/* ================================== */
+
+div#divService {
+	color: springgreen;
+}
+
+header:hover {
+	text-shadow: .05em .05em springgreen;
+}
+
+div#aboutUs p {
+	border: 3px double springgreen;
+}
+
+div#divService {
+	color: springgreen;
+}
+
+div#divService:hover p, div#divService {
+	border: 3px double springgreen;
+}
+
+div#divService li:hover {
+	text-shadow: 5px 5px 15px springgreen;
+}
+
+div#gallery img:hover {
+	border: 3px double springgreen;
+}
+
+h1:hover {
+	text-shadow: .05em .05em springgreen;
+}
+
+header:hover {
+	text-shadow: .05em .05em springgreen;
+}
+
+footer {
+	background-color: springgreen;
+	background-color: rgba( 0, 221, 0, .4);
+}
+
+nav {
+	background-color: springgreen;
+	background-color: rgba( 0, 221, 0, .4);
+}
+
+/* ================================= */
+/* = From FUCHSIA to INDIGO = */
+/* ================================= */
+
+footer {
+	border-color: indigo;
+	}
+
+nav {
+	border-color: indigo;
+}
+
+body > img {
+	border: .3em double indigo;
+}
+
+div#gallery img:nth-of-type(even) {
+	border: 2px solid indigo;
+}
+
+div section {
+	border-color: indigo;
+}
+
+body > button#upArrow {
+	background-color: indigo;
+}
+
+a:hover, a.amazing_website_luigi:hover, footer > text:hover {
+	color: indigo;
+}
+
+/* ================================= */
+/* =From INDIGO to VIOLET = */
+/* ================================= */
+
+div#gallery img:nth-of-type(odd) {
+	border: 2px solid violet;
+}
